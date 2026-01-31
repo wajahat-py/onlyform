@@ -5,14 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tides Clinic</title>
     <style>
-        .jotform-wrapper {
-        height: 100% !important;
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6fb;
+        }
+        .logo-header {
+            background: linear-gradient(90deg, #2d3e50 0%, #4a6073 100%);
+            padding: 40px 0 30px 0;
+            text-align: center;
+        }
+        .logo-header img {
+            width: 120px;
+            height: auto;
+            filter: drop-shadow(0 2px 8px rgba(0,0,0,0.12));
+        }
+
+        @media screen and (min-width: 769px) {
+            .jotform-wrapper {
+                margin-top: -20px;
+            }
         }
     </style>
 </head>
 <body>
+    <div class="logo-header">
+        <img src="logo.png" alt="OnlyForm Logo">
+    </div>
     <div class="jotform-wrapper">
         <script type="text/javascript" src="https://form.jotform.com/jsform/260245765549870"></script>
     </div>
-</body>  
+</body>
 </html>
